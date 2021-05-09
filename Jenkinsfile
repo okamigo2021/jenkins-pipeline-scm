@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Publish') {
             steps {
-                archiveArtifacts: 'hello.txt'
+                archiveArtifacts artifacts: 'hello.txt'
             } 
         }    
     }
