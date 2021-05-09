@@ -11,5 +11,6 @@ pipeline {
             steps {
                 archiveArtifacts: 'hello.txt'
             } 
+        }    
     }
 }
